@@ -71,6 +71,9 @@ puts create_fav_res.inspect
 
 ```
 
+##TODO
+* ~~Expand README.~~
+
 ##Contributing
 Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to contribute.
 
