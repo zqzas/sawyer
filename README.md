@@ -17,9 +17,9 @@ much use.
 Sawyer knows what needs to be done.  He gets in there, assesses the
 situation, and figures out the next action.
 
-One particularlly valuable feature of Sawyer is the support for Hypermedia link relations. The user don't have to care about the URL in the response and pass it to next request by hands. Instead, Sawyer's `Relation` objects support dictionary-like operations, HTTP verbs and even handle URI templates.
-
 ##Usage
+
+One particularlly valuable feature of Sawyer is the support for Hypermedia link relations. The user don't have to care about the URL in the response and pass it to next request by hands. Instead, Sawyer's `Relation` objects support dictionary-like operations, HTTP verbs and even handle URI templates.
 
 Here is an example from [example/client.rb](/example/client.rb).
 
