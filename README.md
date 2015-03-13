@@ -19,7 +19,9 @@ situation, and figures out the next action.
 
 One particularlly valuable feature of Sawyer is the support for Hypermedia link relations. The user don't have to care about the URL in the response and pass it to next request by hands. Instead, Sawyer's `Relation` objects support dictionary-like operations, HTTP verbs and even handle URI templates.
 
-## Usage
+##Usage
+
+Here is an example from [example/client.rb](/example/client.rb).
 
 ```ruby
 agent    = Sawyer::Agent.new(endpoint) do |http|
@@ -69,3 +71,10 @@ puts create_fav_res.inspect
 
 ```
 
+##Contributing
+Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to contribute.
+
+
+##License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations.
